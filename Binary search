@@ -1,3 +1,4 @@
+#Implement binary search in an array
 def binary_search(array, key, low, high=array.size-1)
     return -1 if low> high
     mid = (low+high)/2
