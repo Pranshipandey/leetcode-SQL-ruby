@@ -1,3 +1,4 @@
+# Implemenatation of Quick sort in an array
 class Array
     def quicksort
         return [] if empty?
